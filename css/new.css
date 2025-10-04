@@ -1,0 +1,76 @@
+/* body{
+    background-color: lightcoral;
+}
+.group{
+    color: aqua;
+    text-align: center;
+}
+#blur{
+    color: grey;
+}
+.one{
+    color: blueviolet;
+}
+.two{
+    text-align: center;
+}
+#id{
+    color: aquamarine;
+}
+h1,
+h2,
+h3{
+    color:aquamarine;
+    text-align:center;
+} */
+
+/* *{
+    color:blue;
+    background-color: blanchedalmond;
+
+} */
+ /* #border{ */
+    /* border-style:dashed; */
+    /* border-style:dotted; */
+    /* border-style:double; */
+    /* border-style:groove; */
+    /* border-style:hidden; */
+    /* border-style:inset; */
+    /* border-style:solid; */
+    /* border-style:inset outset;
+    border-style:dotted dashed; */
+    /* border-style:solid;
+
+    border-color: aqua;
+    border-width: 8px 8px;
+    /* border-radius:30px; */
+    /* border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 90px;
+    border-top-left-radius: 30px; */ 
+    /* border: 5px red solid; */
+
+
+
+ 
+ /* #text{ */
+    /* border:20px burlywood solid; */
+    /* text-decoration: line-through;
+ /* text-decoration: underline; */
+ /* text-decoration: overline; */
+ /* text-decoration: lowercase; */
+ /* text-decoration: capitalize; */
+ /* text-align:justify; */
+ /* direction:rtl; */
+ /* direction:ltr; */
+ /* word-spacing: 15px;
+ letter-spacing: 15px; */
+ /* }
+ #padding{
+    border:5px burlywood solid;
+    /* height:500px; */
+    /* max-height: 500px; */
+    /* padding:20px; */
+    /* padding-top:50px; */
+    /* padding-bottom:50px; */
+    /* padding-left:100px */
+ 

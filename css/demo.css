@@ -1,0 +1,344 @@
+/* #border
+{
+     /* border-style: double; */
+    /* border-style: solid dashed dotted ridge; */
+    /* solid, dotted,dashed, inset, outset,double,ridge use for border */
+    /* border-color: blue violet green red yellow; */
+    /* border-width: 5px 10px 15px 20px; */
+
+    /* border-left: 20px; */
+    /* border-top-left-radius: 10px; */
+
+    
+     
+
+
+/* #text
+{
+ border:2px solid black;
+ /*text-transform: uppercase;
+ol{
+    list-style: lower-roman;
+}
+ul{
+    list-style:circle;
+}
+li:nth-child(even){
+    color:red
+}
+li:nth-child(odd)
+{
+    color:blue;
+}
+li:first-child{
+    color:green;
+}
+li:last-child{
+    color:skyblue
+}
+li:first-child{
+    color:blue;
+    font-size:100px;
+}
+li:last-child{
+    color:green;
+    font-size:50px;
+}
+table{
+    border:2px solid black;
+}
+th{
+    border:2px solid red;
+    background-color: yellow;
+}
+tr{
+    border: 2px solid black;
+    background-color: lightpink;
+}
+td{
+    text-align :center;
+}
+#overflow
+{
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    overflow: scroll;
+}
+#gradient
+{
+    border: 5px solid black;
+    height: 300px;
+    width: 300px;
+/* background-color: rgb(235, 135, 137); */
+/*background-image: repeating-linear-gradient( to left, blue , red 20%,green 10%);*/
+/*background-image: radial-gradient(ellipse at top,red, yellow, green),  
+                radial-gradient(ellipse at bottom,green,transparent),
+                 radial-gradient(ellipse at left,yellow,transparent),
+                 /* radial-gradient(ellipse at right,blue,transparent);*/
+/* 
+.box
+{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin: auto;
+    border-radius: 50%;
+} */
+/* .b1
+{
+    background-image: conic-gradient(red,yellow,green,blue,black);
+
+}
+.b2
+{
+    background-image: conic-gradient(red,yellow,green,red);
+}
+.b3
+{
+    background-image: conic-gradient(from 45deg,red,green,yellow);
+}
+.b4
+{
+    background-image: conic-gradient(at 30% 50%,red,green,yellow);
+}
+.b5
+{
+    background-image: repeating-conic-gradient(rgba(0,0,0,0) 0deg,rgba(0,0,0,0) 20deg,rgba(0,0,0,0.5) 20deg,rgba(0,0,0,0.5) 30deg);
+}
+.b6
+{
+    background-image: repeating-conic-gradient(yellow 0deg,red 90deg,blue 90deg);
+}
+.b7
+{
+    background-image: repeating-conic-gradient(yellow 0deg,yellow 90deg,black 90deg,black 180deg);
+    background-size: 20px 20px;
+}
+.b8
+{
+  width: 100px;
+  height: 100px;
+    background-image: repeating-conic-gradient(blue 100%);
+    inline-size: 20px 20px;
+}
+.b9
+{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background: conic-gradient(red 0deg 120deg,yellow 120deg 240deg,green 240deg 360deg);
+}
+.b10
+{
+     background-image: repeating-conic-gradient(red 100%);
+
+}
+.container
+
+{
+    width: 100%;
+    height: 100vh;
+    background: #091836;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.insta
+{
+    width: 200px;
+    height: 270px;
+    background: radial-gradient(circle at 33% 100%,#fed373, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    border-radius: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.insta-inner
+{
+    width: 200px;
+    height: 200px;
+    border: 18px solid white;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+.insta-inner2
+{
+    width: 100px;
+    height: 100px;
+    border: 18px solid white;
+    border-radius: 50%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1
+{
+    background-color: yellow;
+    display: block;
+}
+span
+{
+    background-color: white;
+    display: block;
+}
+ul
+{
+background-color: yellow;
+list-style-type: none;
+height: 1cm;
+line-height: 1cm;
+}
+ul li
+{
+    background-color: red;
+    display: inline-block;
+    padding-left: 0.5cm;
+}
+.b1
+{
+    background-color: yellow;
+    text-align: justify;
+    width: 50%;
+
+}
+.b2
+{
+    background-color: lightgreen;
+    text-align: justify;
+    width: 50%;
+    float: right;
+    margin: auto;
+}
+#myimage
+{
+    float: left;
+}
+#myimage1
+{
+    float: right;
+}
+div
+{
+    float:left;
+}
+.a
+{
+    background-color: yellow;;
+}
+.b
+{
+    background-color: lightgreen;
+}
+.c
+{
+    background-color: orange;
+}
+.d
+{
+    background-color: pink;
+}
+body{
+    margin:0;
+    padding:0;
+    height: 200cm;
+}
+div{
+    height: 2cm;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.a{background-color: yellow;}
+.b{background-color: pink;}
+.c{background-color: green;}
+.d{background-color: skyblue;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: yellow;
+}  */
+
+/* div p{
+    background-color: yellow;
+} */
+ /* .a>p{
+    background-color: yellow;
+ } */
+  /* div+p{
+    background-color: yellow;
+  } */
+   /* div~p{
+    background-color: yellow;
+   } */
+
+   /* h1{
+    background-color: yellow;
+    color:black;
+    text-align: center;
+   }
+ul{
+    background-color: lightgreen;
+}
+ul li{
+    background-color: blueviolet;
+    display: inline-block;
+    padding: 20px;
+    position: sticky;
+}
+ul li:hover{
+    background-color: yellow;
+    color: black;
+    padding-left: 25px;
+    transition: 0.1s;
+} */
+ /* body{
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+    
+    
+ }
+h1{
+    color: blue;
+    background-color: yellow;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgreen;
+
+}
+button{
+    background-color: pink;
+}
+ */
+/* body{
+    font-size: 20px;
+    background-color: cadetblue;
+}
+#first{
+    color: azure;
+}
+.purple{
+    color:purple;
+    font-family: monospace;
+}
+.hello{
+    background-color: skyblue
+} */
+ 
